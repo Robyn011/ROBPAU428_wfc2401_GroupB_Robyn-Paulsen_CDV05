@@ -1,0 +1,206 @@
+:root{
+--dark:#06141B;
+--semi-dark:#11212D;
+--medium:#253745;
+--semi-light:#4A5C6A;
+--light:#9BA8AB;
+--light-light: #CCD0CF;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--light) ;
+    background-color:var(--medium);
+}
+
+header {
+    background-color:var(--semi-dark);
+    color: var(--light-light);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--light);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color:var(--semi-light);
+    color: var(--semi-dark);
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color:var(--semi-dark);
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    color:var(--semi-dark);
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--semi-light);
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    color: var(--light-light);
+    background-color:var(--semi-dark);
+    border-radius: 5px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+    border: var(--medium);
+    border-radius: 5px;
+    box-shadow: var(--dark);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: var(--light);
+    color: var(--semi-dark);
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-card h2 {
+    font-size: 20px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+.project-card a {
+    display: block;
+    margin-top: 10px;
+    color:var(--dark);
+    background-color:var(--semi-light);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color:var(--semi-dark);
+    color: var(--light);
+}
+.about, h2{
+    text-align: center;
+}
+.about-text {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--light-light);
+}
+
+
+.about-image {
+    width: 300px; /* Adjust width to match project image */
+    margin: 0 auto; /* Center the image */
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* Existing CSS styles */
+
+/* Styles for the Skills section */
+#skills {
+    padding: 20px;
+    background-color: var(--semi-light);
+    color: var(--light-light);
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills-container div {
+    width: 45%;
+}
+
+.skills-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skills-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-container li {
+    background-color:var(--medium);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styles for the back-to-top button */
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#back-to-top-btn svg {
+    width: 100%;
+    height: 100%;
+}
+
+#back-to-top-btn:hover {
+    background-color: #555;
+}
+
+
+
