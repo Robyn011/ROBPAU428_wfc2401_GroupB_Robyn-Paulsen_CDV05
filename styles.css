@@ -5,6 +5,8 @@
 --semi-light:#4A5C6A;
 --light:#9BA8AB;
 --light-light: #CCD0CF;
+--heading-font: "Teko", sans-serif;
+--text-font: "Caveat", cursive;
 }
 
 
@@ -124,7 +126,7 @@ footer {
     text-align: center;
 }
 .about-text {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     color: var(--light-light);
 }
